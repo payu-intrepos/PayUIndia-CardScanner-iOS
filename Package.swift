@@ -9,9 +9,9 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "PayUIndia-CardScanner",
-            targets: ["PayUIndia-CardScanner"]),
+            targets: ["PayUCardScannerKit"]),
     ],
     targets: [
-            .binaryTarget(name: "PayUIndia-CardScanner", path: "./PayUCardScannerKit.xcframework")
+            .binaryTarget(name: "PayUCardScannerKit", path: "./PayUCardScannerKit.xcframework")
         ]
 )
